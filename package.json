@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Premier API en EXPRESS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bson": "^1.0.4",
+    "debug": "^3.1.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.2.0",
+    "mongoose": "^5.6.0",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.14.11",
+    "restify": "^6.3.4",
+    "restify-errors": "^5.0.0",
+    "restify-plugins": "^1.6.0"
+  }
+}
